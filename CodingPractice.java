@@ -7,7 +7,7 @@ public class CodingPractice{
             multiplesOf3.add(x);
         }
         System.out.println(multiplesOf3);
-        for(int n=0;n<multiplesOf3.size();n++){
+        for(int n=multiplesOf3.size()-1;n>=0;n--){
             if(multiplesOf3.get(n)%2==0){
                 multiplesOf3.remove(n);
             }
